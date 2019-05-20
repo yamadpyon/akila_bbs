@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  get 'inu' => 'home#neko'
   get 'home/index' => 'home#index'
   get 'home/show' => 'home#show'
   post 'home/create' =>'home#create'
+  get 'home/:id/edit' => 'home#edit'
+  put 'home/:id/update' =>'home#update'
+  delete 'home/:id/destroy' =>'home#destroy'
 end

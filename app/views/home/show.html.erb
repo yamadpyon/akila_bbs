@@ -1,3 +1,9 @@
-<%@users.each do |user|%>
-  <p><%=user.name%></p>
+<%@users.each do |user| %>
+  <p>
+    <%=user.id%> <%=user.name%>
+    <%= link_to "編集", "/home/#{user.id}/edit"%>
+    <%= link_to "削除", "/home/#{user.id}/destroy",method: :delete%>
+  </p>
 <%end%>
+
+<%= link_to "作成", "/home/index"%>

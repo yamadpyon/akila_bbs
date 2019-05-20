@@ -1,0 +1,4 @@
+<%= form_tag("/home/#{@user.id}/update", method: :put) do %>
+  <%= text_field_tag :name,@user.name%>
+  <%= submit_tag "編集" %>
+<% end %>

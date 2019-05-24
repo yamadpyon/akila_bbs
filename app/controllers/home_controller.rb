@@ -29,4 +29,11 @@ class HomeController < ApplicationController
     User.find_by(id:params[:id]).destroy!
     redirect_to controller: :home, action: :show
   end
+
+  def favorite
+    user=User.find_by(id:params[:id])
+    favorite_number=user.favorite + 1
+    user.update!(favorite:favorite_number)
+    redirect_to controller: :home, action: :show
+  end
 end

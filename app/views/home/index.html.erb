@@ -1,6 +1,204 @@
-<%= form_tag('/home/create', method: :post) do %>
-  <%= text_field_tag :name %>
-  <%= submit_tag "作成" %>
-<% end %>
+<div class="container" id="mainContent">
+  <div class="breadcrumb-container ">
+    <div class="akitennisclass1513" style="margin-top:0;">
+      <div class="media">
+        <div class="akitennisclass1766">
+            <i class="fa fa-home"></i> Top
+        </div>
+        <div class="akitennisclass1508">
+          <div class="akitennisclass2072">
+            <ol class="akitennisclass968 akitennisclass1290">
+              <li>
+                  <span itemprop="title">掲示板の名前</span>
+              </li>
+            </ol>
+          </div>
+          <!--.bc-list-->
+        </div>
+        <!--.media-body-->
+      </div>
+      <!--.media-->
+    </div>
+  </div>
 
-<%= link_to "一覧", "/home/show"%>
+
+  <!-- ContentHeader -->
+
+  <!-- / ContentHeader -->
+
+  <div class="row">
+    <div class="akitennisclass1675" role="main">
+      <!-- MainContent -->
+      <div class="akitennisclass1291 akitennisclass1926">
+        <div class="akitennisclass1531">
+          <small class="akitennisclass1539" data-container="body" data-toggle="tooltip" title="2019/06/10 08:41">
+            <i class="fa fa-clock"></i> <b>
+            <time datetime="2019-06-10T08:41:59+09:00">2019/06/10</time>
+          </b>
+          </small>
+        </div>
+      </div>
+
+
+      <section class="akitennisclass2348">
+        <h3 id="comment_section">コメント数 <span class="badge"><%= @posts.count %></span>
+        </h3>
+
+
+        <div class="akitennisclass1926">
+          <div class="akitennisclass1492 akitennisclass2348" id="pager-head">
+
+
+            <div class="akitennisclass1926">
+              <div class="akitennisclass1766">
+                <div class="akitennisclass1570 akitennisclass1926 ">
+                  1 - <%= @posts.count %> / <%= @posts.count %>
+
+                </div>
+
+
+              </div>
+
+              <div class="akitennisclass1531 akitennisclass1570">
+                <a class="internalLink" href="#last_comment">
+                  <i class="fa akitennisclass996"></i> 最新コメント<span class="hidden-xs">を見る</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="comments" class="akitennisclass2348">
+          <% unless @posts.nil? %>
+            <% count = 0 %>
+            <% @posts.each do |post| %>
+              <% count == 5 ? count = 1 : count += 1 %>
+              <% case count %>
+              <% when 1 then %>
+              <% name = "匿名社員" %>
+              <% when 2 then %>
+                <% name = "匿名係長" %>
+              <% when 3 then %>
+                <% name = "匿名部長" %>
+              <% when 4 then %>
+                <% name = "匿名課長" %>
+              <% when 5 then %>
+                <% name = "匿名社長" %>
+        <% end %>
+              <div id="last_comment" class="akitennisclass1292 akitennisclass2594">
+                <div class="akitennisclass1766">
+                  <a href="https://king.mineo.jp/my/61ea83714e41b533" title="John Isle"><span>
+                    <img alt="John Isle" class="imageSvg" data-container="body"
+                         src="/assets/<%= count %>.png" title="John Isle" width="60"></span><span class="label akitennisclass1174 akitennisclass1284"></span></a>
+                </div>
+                <div class="akitennisclass1764">
+                  <div class="popover right show">
+                    <div class="arrow"></div>
+
+                    <div class="popover-content">
+                      <div class="akitennisclass1291 akitennisclass1926">
+                        <div class="akitennisclass313 akitennisclass1766 akitennisclass1853">
+
+
+                          <b class="akitennisclass1539">
+                            <a href="https://king.mineo.jp/my/61ea83714e41b533" title="John Isle">
+                                                    <span class="label akitennisclass1035" style="margin-right: 5px;">
+                                                        <%= name %></span></a></b>
+                        </div>
+
+                      </div>
+                      <!--.clearfix-->
+
+
+                      <p>
+                        <%= post.contents %></post>
+                      <div class="akitennisclass1926">
+                        <div class="akitennisclass313 akitennisclass1531 akitennisclass1853">
+              <span class="akitennisclass1539" data-container="body" data-toggle="tooltip" title="2019/06/10 09:33">
+                <i class="fa fa-clock"></i> <time datetime="2019-06-10T09:33:05+09:00">約3時間前</time>
+              </span>
+                        </div>
+                      </div>
+                      <div class="akitennisclass1926">
+                        <div class="akitennisclass1766">
+                          <%= link_to "/home/#{post.id}/favorite", class: "btn akitennisclass1857 akitennisclass2312", method: :put do %>
+                            <i class="fa fa-heart"></i>
+                            いいね
+                            <span class="badge"><%= post.favorite %></span>
+                          <% end %>
+                          <div class="akitennisclass313 akitennisclass1531 akitennisclass1853">
+                            <span class="akitennisclass1539" data-container="body" data-toggle="tooltip" title="2019/06/10 09:33">
+                                  <%= link_to "/home/#{post.id}/destroy", style:"color:red; margin-left:10px;",method:"delete" do%>
+                              <i class="fa fa-trash"></i>削除
+                            <% end %>
+                          </div>
+                          <div class="akitennisclass313 akitennisclass1531 akitennisclass1853">
+                            <span class="akitennisclass1539" data-container="body" data-toggle="tooltip" title="2019/06/10 09:33">
+                                  <%= link_to "/home/#{post.id}/edit" do%>
+                              <i class="fa fa-pen"></i>編集
+                            <% end %>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+            <% end %>
+          <% end %>
+        </div>
+        <%= form_tag('/home/create', method: :post, class: "new_content_comment", id: "comment_form") do %>
+          <div style="display:none">
+            <input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="k0tPgtHEk5ruAunyEF/65Dfh/LCXhgYs77fMPOnXGes=">
+          </div>
+          <div class="panel akitennisclass982">
+
+            <input class="imageId" id="content_comment_up_image_id" name="content_comment[up_image_id]" type="hidden">
+            <input class="videoUrl" id="content_comment_video_url" name="content_comment[video_url]" type="hidden">
+            <input class="twitterUrl" id="content_comment_twitter_url" name="content_comment[twitter_url]" type="hidden">
+            <input class="facebookUrl" id="content_comment_facebook_url" name="content_comment[facebook_url]" type="hidden">
+            <div class="akitennisclass987">
+              <ul class="akitennisclass1306 akitennisclass1290">
+                <li>
+                  <span class="label akitennisclass1036">この掲示板にコメントしましょう！</span>
+                </li>
+
+              </ul>
+            </div>
+            <div class="akitennisclass1502">
+              <div class="uploadedImage">
+
+              </div>
+              <div class="uploadedVideo">
+
+              </div>
+              <div class="uploadedTwitter"></div>
+              <div class="uploadedFacebook"></div>
+
+
+              <p>
+                <%= text_field_tag :contents, "", class: "autoResizeable charCountable akitennisclass1200", id: "content_comment_body", style: "min-height: 3em; max-height: 250px; overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 66px;" %>
+              </p>
+              <div class="akitennisclass1926">
+                <p class="akitennisclass1539 akitennisclass1766 akitennisclass2320">たったの<b class="charCounterLimit">２０分</b>で<span class="akitennisclass1238"><b class="charCounter">掲示板アプリ</b></span>ができる！！
+                </p>
+                <%= submit_tag "作成", class: "btn akitennisclass1316 akitennisclass1531 gaEventTrackableWithConfirm aaEventTrackableWithConfirm" %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+
+
+      </section>
+
+
+    </div>
+  </div>
+</div>

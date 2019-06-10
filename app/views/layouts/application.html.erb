@@ -1,15 +1,125 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sample</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>掲示板デザイン</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
   </head>
 
   <body>
+
+
+  <header class="akitennisclass1741">
+    <nav class="akitennisclass1737">
+      <div class="container">
+        <div class="akitennisclass1926">
+          <a href="https://king.mineo.jp/" class="title">
+            AKI REVO | BBS
+          </a>
+
+          <ul class="akitennisclass1531 akitennisclass2549 akitennisclass1302 akitennisclass1246 akitennisclass1306">
+            <li>
+              <a href="https://king.mineo.jp/signup?.done=https%3A%2F%2Fking.mineo.jp%2Fmy%2F39e9eaf9ed79014f%2Freports%2F53455">
+               <span id="labelValidName">
+        <span class="invalid">
+          <i class="fa fa-user akitennisclass2390"></i>
+          <span class="akitennisclass2101">使用できません</span>
+        </span>
+      </span>
+                <br>
+                メンバー登録
+              </a>
+            </li>
+
+            <li>
+
+              <a href="https://king.mineo.jp/login?.done=https%3A%2F%2Fking.mineo.jp%2Fmy%2F39e9eaf9ed79014f%2Freports%2F53455">
+                                           <span id="labelValidName">
+        <span class="invalid">
+          <i class="fa fa-signal akitennisclass2390"></i>
+          <span class="akitennisclass2101">使用できません</span>
+        </span>
+      </span>
+                <br>
+                ログイン
+              </a>
+            </li>
+
+          </ul>
+
+
+        </div>
+        <!--clearfix-->
+      </div>
+    </nav><!--v2-navtop-->
+
+
+    <div class="container">
+      <div class="akitennisclass975">
+        <div class="akitennisclass1232">
+          Today: <span>1458</span> Views
+        </div>
+        <div class="akitennisclass810">
+環境構築が要らない新感覚アプリケーション作成講座
+
+
+        </div>
+      </div>
+      <!--green-project-->
+    </div>
+
+
+    <!-- / HAPPY METER -->
+
+  </header>
     <%= yield %>
+
+
+  <footer class="akitennisclass1247 akitennisclass2481" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="akitennisclass1826 text-md-left">
+
+        </div>
+        <div class="akitennisclass1677 text-md-left align-self-center">
+          <ul class="akitennisclass1306 akitennisclass2520">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/mineo.jp" target="_blank"><img alt="Icon footer facebook" height="28" src="https://img.king.mineo.jp/assets/new_design/icon-footer-facebook-0f461b99c959b7f52db4f519a29d2136.svg"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="53455">
+              </a><a href="https://twitter.com/mineojp" target="_blank"><img alt="Icon footer twitter" height="28" src="https://img.king.mineo.jp/assets/new_design/icon-footer-twitter-b45996ab7aa388b1a187af9eb6fb339a.svg"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="53455">
+              </a><a href="https://www.youtube.com/channel/UCG85ka-ILNc6eaI_8h5oWsg" target="_blank"><img alt="Icon footer youtube" height="28" src="https://img.king.mineo.jp/assets/new_design/icon-footer-youtube-cfeff5d0c5455d454f76fc2d2db722c7.svg"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="53455">
+              </a><a href="https://line.me/R/ti/p/TIcbrI8Mkq" target="_blank"><img alt="Icon footer line" height="20" src="https://img.king.mineo.jp/assets/new_design/icon-footer-line-978851e27cb481df12663746f27a00ab.png"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="53455">
+              </a><a href="https://www.instagram.com/mineo_jp/" target="_blank"><img alt="Icon footer instagram" height="28" src="https://img.king.mineo.jp/assets/new_design/icon-footer-instagram-7e392ac0fd5b09c66c543c892853775d.svg"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="akitennisclass1302 akitennisclass2320">© AKI REVO</div>
+
+
+    </div>
+
+    <!--.container-->
+
+  </footer>
   </body>
 </html>

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'home/index' => 'home#index'
+  get '/' => 'home#index'
   get 'home/show' => 'home#show'
   post 'home/create' =>'home#create'
   get 'home/:id/edit' => 'home#edit'

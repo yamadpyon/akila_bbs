@@ -1,39 +1,34 @@
 class HomeController < ApplicationController
 
   def index
+    @posts = Post.all
     render "index"
   end
 
   def create
-    User.create!(name:params[:name])
-    render "index"
+    Post.create!(contents:params[:contents])
+    redirect_to controller: :home, action: :index
   end
-
-  def show
-    @users=User.all
-    render "show"
-  end
-
 
   def edit
-    @user=User.find_by(id:params[:id])
+    @post=Post.find_by(id:params[:id])
     render "edit"
   end
 
   def update
-    User.find_by(id:params[:id]).update!(name:params[:name])
-    redirect_to controller: :home, action: :show
+    Post.find_by(id:params[:id]).update!(contents:params[:contents])
+    redirect_to controller: :home, action: :index
   end
 
   def destroy
-    User.find_by(id:params[:id]).destroy!
-    redirect_to controller: :home, action: :show
+    Post.find_by(id:params[:id]).destroy!
+    redirect_to controller: :home, action: :index
   end
 
   def favorite
-    user=User.find_by(id:params[:id])
-    favorite_number=user.favorite + 1
-    user.update!(favorite:favorite_number)
-    redirect_to controller: :home, action: :show
+    content=Post.find_by(id:params[:id])
+    favorite_number=content.favorite + 1
+    content.update!(favorite:favorite_number)
+    redirect_to controller: :home, action: :index
   end
 end

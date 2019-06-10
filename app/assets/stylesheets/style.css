@@ -1110,7 +1110,7 @@ input, button, select, textarea {
 }
 
 a {
-    color: #03a9f4;
+    color: #f44336;
     text-decoration: none
 }
 
@@ -1306,7 +1306,7 @@ mark, .mark {
 }
 
 .text-primary {
-    color: #03a9f4
+    color: #f44336
 }
 
 a.text-primary:hover {
@@ -1314,7 +1314,7 @@ a.text-primary:hover {
 }
 
 .akitennisclass1238 {
-    color: #03a9f4
+    color: #f44336
 }
 
 a.akitennisclass1238:hover {
@@ -1350,7 +1350,7 @@ a.akitennisclass1304:hover {
 }
 
 .bg-primary {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 a.bg-primary:hover {
@@ -2706,11 +2706,11 @@ textarea.input-lg, .input-group-lg > textarea.akitennisclass1200, .input-group-l
 }
 
 .has-success .akitennisclass1523, .has-success .akitennisclass1063, .has-success .radio, .has-success .akitennisclass1855, .has-success .akitennisclass1194, .has-success .akitennisclass1855-inline, .has-success.radio label, .has-success.akitennisclass1855 label, .has-success.akitennisclass1194 label, .has-success.akitennisclass1855-inline label {
-    color: #03a9f4
+    color: #f44336
 }
 
 .has-success .akitennisclass1200 {
-    border-color: #03a9f4;
+    border-color: #f44336;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075)
 }
@@ -2722,13 +2722,13 @@ textarea.input-lg, .input-group-lg > textarea.akitennisclass1200, .input-group-l
 }
 
 .has-success .input-group-addon {
-    color: #03a9f4;
-    border-color: #03a9f4;
+    color: #f44336;
+    border-color: #f44336;
     background-color: #dff0d8
 }
 
 .has-success .akitennisclass1200-feedback {
-    color: #03a9f4
+    color: #f44336
 }
 
 .has-warning .akitennisclass1523, .has-warning .akitennisclass1063, .has-warning .radio, .has-warning .akitennisclass1855, .has-warning .akitennisclass1194, .has-warning .akitennisclass1855-inline, .has-warning.radio label, .has-warning.akitennisclass1855 label, .has-warning.akitennisclass1194 label, .has-warning.akitennisclass1855-inline label {
@@ -2978,8 +2978,8 @@ textarea.input-lg, .input-group-lg > textarea.akitennisclass1200, .input-group-l
 
 .akitennisclass1316 {
     color: #fff;
-    background-color: #03a9f4;
-    border-color: #03a9f4
+    background-color: #f44336;
+    border-color: #f44336
 }
 
 .akitennisclass1316:hover, .akitennisclass1316:focus, .akitennisclass1316.focus, .akitennisclass1316:active, .akitennisclass1316.active, .open > .akitennisclass1316.dropdown-toggle {
@@ -2993,12 +2993,12 @@ textarea.input-lg, .input-group-lg > textarea.akitennisclass1200, .input-group-l
 }
 
 .akitennisclass1316.disabled, .akitennisclass1316.disabled:hover, .akitennisclass1316.disabled:focus, .akitennisclass1316.disabled.focus, .akitennisclass1316.disabled:active, .akitennisclass1316.disabled.active, .akitennisclass1316[disabled], .akitennisclass1316[disabled]:hover, .akitennisclass1316[disabled]:focus, .akitennisclass1316[disabled].focus, .akitennisclass1316[disabled]:active, .akitennisclass1316[disabled].active, fieldset[disabled] .akitennisclass1316, fieldset[disabled] .akitennisclass1316:hover, fieldset[disabled] .akitennisclass1316:focus, fieldset[disabled] .akitennisclass1316.focus, fieldset[disabled] .akitennisclass1316:active, fieldset[disabled] .akitennisclass1316.active {
-    background-color: #03a9f4;
-    border-color: #03a9f4
+    background-color: #f44336;
+    border-color: #f44336
 }
 
 .akitennisclass1316 .badge {
-    color: #03a9f4;
+    color: #f44336;
     background-color: #fff
 }
 
@@ -3056,7 +3056,7 @@ textarea.input-lg, .input-group-lg > textarea.akitennisclass1200, .input-group-l
 
 .btn-warning {
     color: #fff;
-    background-color: #03a9f4;
+    background-color: #f44336;
     border-color: #daa20d
 }
 
@@ -3071,12 +3071,12 @@ textarea.input-lg, .input-group-lg > textarea.akitennisclass1200, .input-group-l
 }
 
 .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
-    background-color: #03a9f4;
+    background-color: #f44336;
     border-color: #daa20d
 }
 
 .btn-warning .badge {
-    color: #03a9f4;
+    color: #f44336;
     background-color: #fff
 }
 
@@ -3107,7 +3107,7 @@ textarea.input-lg, .input-group-lg > textarea.akitennisclass1200, .input-group-l
 }
 
 .akitennisclass1857 {
-    color: #03a9f4;
+    color: #f44336;
     font-weight: normal;
     border-radius: 0
 }
@@ -3281,7 +3281,7 @@ tbody.collapse.in {
     color: #fff;
     text-decoration: none;
     outline: 0;
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -3710,7 +3710,7 @@ tbody.collapse.in {
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #03a9f4
+    border-color: #f44336
 }
 
 .nav .nav-divider {
@@ -3766,7 +3766,7 @@ tbody.collapse.in {
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .nav-stacked > li {
@@ -4484,7 +4484,7 @@ tbody.collapse.in {
     padding: 10px 14px;
     line-height: 1.428571429;
     text-decoration: none;
-    color: #03a9f4;
+    color: #f44336;
     background-color: #fff;
     border: 1px solid #ddd;
     margin-left: -1px
@@ -4510,8 +4510,8 @@ tbody.collapse.in {
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
     z-index: 2;
     color: #fff;
-    background-color: #03a9f4;
-    border-color: #03a9f4;
+    background-color: #f44336;
+    border-color: #f44336;
     cursor: default
 }
 
@@ -4636,7 +4636,7 @@ a.label:hover, a.label:focus {
 }
 
 .akitennisclass1035 {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .akitennisclass1035[href]:hover, .akitennisclass1035[href]:focus {
@@ -4660,7 +4660,7 @@ a.label:hover, a.label:focus {
 }
 
 .label-warning {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .label-warning[href]:hover, .label-warning[href]:focus {
@@ -4705,7 +4705,7 @@ a.label:hover, a.label:focus {
 }
 
 a.akitennisclass686.active > .badge, .nav-pills > .active > a > .badge {
-    color: #03a9f4;
+    color: #f44336;
     background-color: #fff
 }
 
@@ -4790,7 +4790,7 @@ a.badge:hover, a.badge:focus {
 }
 
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
-    border-color: #03a9f4
+    border-color: #f44336
 }
 
 .akitennisclass2391 {
@@ -4831,7 +4831,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 .akitennisclass2391-success {
     background-color: #dff0d8;
     border-color: #d6e9c6;
-    color: #03a9f4
+    color: #f44336
 }
 
 .akitennisclass2391-success hr {
@@ -4920,7 +4920,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     line-height: 20px;
     color: #fff;
     text-align: center;
-    background-color: #03a9f4;
+    background-color: #f44336;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     -webkit-transition: width 0.6s ease;
@@ -4962,7 +4962,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 .akitennisclass1168-warning {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .progress-striped .akitennisclass1168-warning {
@@ -5131,8 +5131,8 @@ a.akitennisclass686:hover, a.akitennisclass686:focus {
 .akitennisclass686.active, .akitennisclass686.active:hover, .akitennisclass686.active:focus {
     z-index: 2;
     color: #fff;
-    background-color: #03a9f4;
-    border-color: #03a9f4
+    background-color: #f44336;
+    border-color: #f44336
 }
 
 .akitennisclass686.active .akitennisclass110, .akitennisclass686.active .akitennisclass110 > small, .akitennisclass686.active .akitennisclass110 > .akitennisclass2320, .akitennisclass686.active:hover .akitennisclass110, .akitennisclass686.active:hover .akitennisclass110 > small, .akitennisclass686.active:hover .akitennisclass110 > .akitennisclass2320, .akitennisclass686.active:focus .akitennisclass110, .akitennisclass686.active:focus .akitennisclass110 > small, .akitennisclass686.active:focus .akitennisclass110 > .akitennisclass2320 {
@@ -5144,12 +5144,12 @@ a.akitennisclass686:hover, a.akitennisclass686:focus {
 }
 
 .akitennisclass686-success {
-    color: #03a9f4;
+    color: #f44336;
     background-color: #dff0d8
 }
 
 a.akitennisclass686-success {
-    color: #03a9f4
+    color: #f44336
 }
 
 a.akitennisclass686-success .akitennisclass110 {
@@ -5157,14 +5157,14 @@ a.akitennisclass686-success .akitennisclass110 {
 }
 
 a.akitennisclass686-success:hover, a.akitennisclass686-success:focus {
-    color: #03a9f4;
+    color: #f44336;
     background-color: #d0e9c6
 }
 
 a.akitennisclass686-success.active, a.akitennisclass686-success.active:hover, a.akitennisclass686-success.active:focus {
     color: #fff;
-    background-color: #03a9f4;
-    border-color: #03a9f4
+    background-color: #f44336;
+    border-color: #f44336
 }
 
 .akitennisclass686-info {
@@ -5461,26 +5461,26 @@ a.akitennisclass686-danger.active, a.akitennisclass686-danger.active:hover, a.ak
 }
 
 .panel-primary {
-    border-color: #03a9f4
+    border-color: #f44336
 }
 
 .panel-primary > .akitennisclass987 {
     color: #fff;
-    background-color: #03a9f4;
-    border-color: #03a9f4
+    background-color: #f44336;
+    border-color: #f44336
 }
 
 .panel-primary > .akitennisclass987 + .akitennisclass807 > .akitennisclass1502 {
-    border-top-color: #03a9f4
+    border-top-color: #f44336
 }
 
 .panel-primary > .akitennisclass987 .badge {
-    color: #03a9f4;
+    color: #f44336;
     background-color: #fff
 }
 
 .panel-primary > .panel-footer + .akitennisclass807 > .akitennisclass1502 {
-    border-bottom-color: #03a9f4
+    border-bottom-color: #f44336
 }
 
 .panel-success {
@@ -5488,7 +5488,7 @@ a.akitennisclass686-danger.active, a.akitennisclass686-danger.active:hover, a.ak
 }
 
 .panel-success > .akitennisclass987 {
-    color: #03a9f4;
+    color: #f44336;
     background-color: #dff0d8;
     border-color: #d6e9c6
 }
@@ -5499,7 +5499,7 @@ a.akitennisclass686-danger.active, a.akitennisclass686-danger.active:hover, a.ak
 
 .panel-success > .akitennisclass987 .badge {
     color: #dff0d8;
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .panel-success > .panel-footer + .akitennisclass807 > .akitennisclass1502 {
@@ -16618,8 +16618,8 @@ i.icon.times.rectangle.outline:before {
 
 .google-cse-results .gsc-cursor-current-page {
     color: #fff !important;
-    border-color: #03a9f4 !important;
-    background-color: #03a9f4 !important
+    border-color: #f44336 !important;
+    background-color: #f44336 !important
 }
 
 .google-cse-results .gs-per-result-labels, .google-cse-results .gsc-url-top {
@@ -16958,7 +16958,7 @@ i.icon.times.rectangle.outline:before {
     padding-bottom: 9px;
     padding-left: 0;
     padding-right: 0;
-    color: #03a9f4 !important
+    color: #f44336 !important
 }
 
 .label img {
@@ -17001,7 +17001,7 @@ footer, table {
 }
 
 .akitennisclass1504-nav a.akitennisclass686 {
-    color: #03a9f4
+    color: #f44336
 }
 
 .akitennisclass686-primary {
@@ -17145,7 +17145,7 @@ blockquote {
 }
 
 .mineo-navbar {
-    background-color: #03a9f4;
+    background-color: #f44336;
     color: #fff !important;
     box-shadow: none;
     border: none
@@ -17161,7 +17161,7 @@ blockquote {
 }
 
 .mineo-navbar .badge-with-tip {
-    border: 3px solid #03a9f4 !important
+    border: 3px solid #f44336 !important
 }
 
 .mineo-navbar .col-search .input-group {
@@ -17169,8 +17169,8 @@ blockquote {
 }
 
 .mineo-navbar .col-search .akitennisclass1316 {
-    background-color: #03a9f4;
-    border-color: #03a9f4
+    background-color: #f44336;
+    border-color: #f44336
 }
 
 .mineo-navbar .col-search .akitennisclass1316:hover, .mineo-navbar .col-search .akitennisclass1316:focus {
@@ -17215,7 +17215,7 @@ blockquote {
 }
 
 .mineo-navbar ul.navbar-nav.row li.active a {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 @media (max-width: 992px) {
@@ -17363,7 +17363,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .akitennisclass1313 {
-    color: #03a9f4
+    color: #f44336
 }
 
 .akitennisclass1313:hover {
@@ -17405,7 +17405,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .text-link {
-    color: #03a9f4
+    color: #f44336
 }
 
 .navbar-default .navbar-brand {
@@ -17414,7 +17414,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .akitennisclass1313 .badge, .akitennisclass1857 .badge {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .akitennisclass1313.disabled .badge, .akitennisclass1857.clickable-disabled .badge, .akitennisclass1313.clickable-disabled .badge, .akitennisclass1857.disabled .badge {
@@ -17504,8 +17504,8 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .akitennisclass1024 {
-    background-color: #03a9f4;
-    border-color: #03a9f4
+    background-color: #f44336;
+    border-color: #f44336
 }
 
 .akitennisclass2391-danger {
@@ -17524,12 +17524,12 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .panel-primary {
-    border-color: #03a9f4
+    border-color: #f44336
 }
 
 .panel-primary .akitennisclass987 {
-    background-color: #03a9f4;
-    border-color: #03a9f4;
+    background-color: #f44336;
+    border-color: #f44336;
     color: #fff
 }
 
@@ -17554,12 +17554,12 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .panel-warning {
-    border-color: #03a9f4
+    border-color: #f44336
 }
 
 .panel-warning .akitennisclass987 {
-    background-color: #03a9f4;
-    border-color: #03a9f4;
+    background-color: #f44336;
+    border-color: #f44336;
     color: #fff
 }
 
@@ -17629,7 +17629,7 @@ a.akitennisclass987 .glyphicon-home {
 .akitennisclass987-default {
     background: #eeeeee !important;
     color: #2c4050 !important;
-    border-top: 1px solid #03a9f4
+    border-top: 1px solid #f44336
 }
 
 .mineo-my-nav {
@@ -17649,13 +17649,13 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .mineo-userbadge-other {
-    border-color: #03a9f4;
+    border-color: #f44336;
     border-bottom: none
 }
 
 .mineo-my-nav-other {
-    background-color: #03a9f4;
-    border-color: #03a9f4;
+    background-color: #f44336;
+    border-color: #f44336;
     border-top: none;
     color: #fff !important
 }
@@ -17732,7 +17732,7 @@ a.akitennisclass987 .glyphicon-home {
 .mineo-magazine-detail h2 {
     padding: 10px 14px;
     background-color: #eee;
-    border-left: 4px solid #03a9f4;
+    border-left: 4px solid #f44336;
     border-radius: 4px;
     margin-bottom: 1em
 }
@@ -17784,7 +17784,7 @@ a.akitennisclass987 .glyphicon-home {
 
 .mineo-panel-nav2 a {
     border: 2px solid #ddd;
-    border-color: #03a9f4;
+    border-color: #f44336;
     border-radius: 0;
     color: #2c4050
 }
@@ -17812,7 +17812,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .mineo-panel-nav2 a.bg-mineo-yellow {
-    color: #03a9f4
+    color: #f44336
 }
 
 .mineo-panel-nav2 a.bg-mineo-yellow:hover {
@@ -17828,7 +17828,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .header-btn-group .btn-mineo-yellow {
-    color: #03a9f4 !important;
+    color: #f44336 !important;
     background: url(//img.king.mineo.jp/assets/shuchu-white-140baa896f621efe5ba5d52cfa1573cd.png) no-repeat #f9e427;
     background: #f9e427 \9;
     background-size: 100% 100%;
@@ -17865,7 +17865,7 @@ a.akitennisclass987 .glyphicon-home {
     background: url(//img.king.mineo.jp/assets/shuchu-white-140baa896f621efe5ba5d52cfa1573cd.png) no-repeat #eee;
     background: #eee \9;
     background-size: 100% 100%;
-    color: #03a9f4 !important;
+    color: #f44336 !important;
     border: 1px solid #006f2b
 }
 
@@ -17888,7 +17888,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .panel-slick {
-    border-bottom: 16px solid #03a9f4;
+    border-bottom: 16px solid #f44336;
     padding-bottom: 0
 }
 
@@ -17919,7 +17919,7 @@ a.akitennisclass987 .glyphicon-home {
 .panel.panel-magazine .akitennisclass987 {
     border-radius: 0px;
     background-color: #f9e427;
-    color: #03a9f4;
+    color: #f44336;
     font-weight: bold;
     border-bottom: 0
 }
@@ -17930,7 +17930,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .panel.panel-magazine .akitennisclass987 .akitennisclass1036 {
-    background-color: #03a9f4;
+    background-color: #f44336;
     color: #f9e427
 }
 
@@ -18068,24 +18068,24 @@ a.akitennisclass987 .glyphicon-home {
     background: url(//img.king.mineo.jp/assets/shuchu-white-140baa896f621efe5ba5d52cfa1573cd.png) no-repeat #eee;
     background: #eee \9;
     background-size: 100% 100%;
-    color: #03a9f4
+    color: #f44336
 }
 
 .mineo-panel-nav2 .bg-mineo-yellow.shuchu-white.active {
     background: #f9e427;
-    border-color: #03a9f4;
+    border-color: #f44336;
     color: #7fc620
 }
 
 .mineo-panel-nav2 .bg-mineo-blue.shuchu-white.active {
     background: #00aaf0;
-    border-color: #03a9f4;
+    border-color: #f44336;
     color: #a1dffb
 }
 
 .mineo-panel-nav2 .bg-mineo-purple.shuchu-white.active {
     background: #df23a6;
-    border-color: #03a9f4;
+    border-color: #f44336;
     color: #f3abdd
 }
 
@@ -18176,7 +18176,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .label-mineo, .label-mineo-green {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .label-mineo-pink {
@@ -18222,7 +18222,7 @@ a.akitennisclass987 .glyphicon-home {
 
 .label-white {
     background-color: #fff;
-    color: #03a9f4
+    color: #f44336
 }
 
 .label-mineo-lightgray {
@@ -18231,7 +18231,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .text-mineo, .text-mineo-green {
-    color: #03a9f4
+    color: #f44336
 }
 
 .text-mineo-pink {
@@ -18279,7 +18279,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .btn-mineo, .btn-mineo-green {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .btn-mineo:hover, .btn-mineo-green:hover {
@@ -18397,9 +18397,9 @@ a.akitennisclass987 .glyphicon-home {
 
 .jumbotron-logo {
     margin-top: -20px;
-    border-top: 1px solid #03a9f4;
-    background: url(//img.king.mineo.jp/assets/shuchu-black-672bbcaa2e27c0498a8c8a8a0e04db21.png) no-repeat #03a9f4;
-    background: #03a9f4 \9;
+    border-top: 1px solid #f44336;
+    background: url(//img.king.mineo.jp/assets/shuchu-black-672bbcaa2e27c0498a8c8a8a0e04db21.png) no-repeat #f44336;
+    background: #f44336 \9;
     background-size: 100% 100%;
     padding: 0 !important
 }
@@ -18490,7 +18490,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .akitennisclass1168-light {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .progress-striped .akitennisclass1168-light {
@@ -18570,7 +18570,7 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .label-light {
-    background: #03a9f4
+    background: #f44336
 }
 
 .label-beginner {
@@ -18616,13 +18616,13 @@ a.akitennisclass987 .glyphicon-home {
 
 .btn-yellow {
     background: #f9e427;
-    color: #03a9f4;
+    color: #f44336;
     border-color: #e7d006
 }
 
 .btn-yellow:hover, .btn-yellow:active {
     background: #e7d006;
-    color: #03a9f4;
+    color: #f44336;
     border-color: #e7d006
 }
 
@@ -18687,8 +18687,8 @@ a.akitennisclass987 .glyphicon-home {
 }
 
 .panel-question .akitennisclass1502 {
-    background-color: #03a9f4;
-    border-color: #03a9f4;
+    background-color: #f44336;
+    border-color: #f44336;
     color: #fff
 }
 
@@ -18794,13 +18794,13 @@ b.lead {
 }
 
 #tank-area {
-    border-left: 8px solid #03a9f4;
-    border-right: 8px solid #03a9f4;
-    border-bottom: 8px solid #03a9f4
+    border-left: 8px solid #f44336;
+    border-right: 8px solid #f44336;
+    border-bottom: 8px solid #f44336
 }
 
 #tank-label {
-    color: #03a9f4;
+    color: #f44336;
     font-weight: bold
 }
 
@@ -18914,7 +18914,7 @@ b.lead {
     border-radius: 6px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    color: #03a9f4
+    color: #f44336
 }
 
 .panel-now .akitennisclass987 .label {
@@ -18928,7 +18928,7 @@ b.lead {
     display: block;
     border-top: 0;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid #03a9f4;
+    border-bottom: 20px solid #f44336;
     border-left: 20px solid transparent;
     position: absolute;
     bottom: 0%;
@@ -18937,7 +18937,7 @@ b.lead {
 }
 
 .panel-now .akitennisclass1502 {
-    background-color: #03a9f4;
+    background-color: #f44336;
     color: #fff;
     border-radius: 6px;
     border-top-right-radius: 0;
@@ -18946,7 +18946,7 @@ b.lead {
 
 .panel-now .akitennisclass1502 .panel-primary .akitennisclass1502 {
     background-color: #fff;
-    color: #03a9f4
+    color: #f44336
 }
 
 .akitennisclass1613-justified .btn {
@@ -19003,20 +19003,20 @@ b.lead {
     background: #f9e427;
     margin-bottom: 15px;
     border: 1px solid #f9e427;
-    color: #03a9f4
+    color: #f44336
 }
 
 .rank-title h2 {
     font-weight: bold;
-    color: #03a9f4
+    color: #f44336
 }
 
 .rating .fa-star, .rating .fa-star-half-o {
-    color: #03a9f4
+    color: #f44336
 }
 
 .text-rating {
-    color: #03a9f4
+    color: #f44336
 }
 
 .slick-item {
@@ -19049,7 +19049,7 @@ b.lead {
 
 .rating-select span.star:hover:before, .rating-select span.star:hover ~ span.star:before {
     content: "\f005";
-    color: #03a9f4
+    color: #f44336
 }
 
 .panel-footer-sm {
@@ -19162,7 +19162,7 @@ td.sun {
 }
 
 .tank-image p span {
-    color: #03a9f4;
+    color: #f44336;
     font-size: 12px
 }
 
@@ -19199,7 +19199,7 @@ td.sun {
 }
 
 .tank-image-in p span {
-    color: #03a9f4;
+    color: #f44336;
     font-size: 20px
 }
 
@@ -19226,7 +19226,7 @@ td.sun {
 }
 
 .tank-image-out p span {
-    color: #03a9f4;
+    color: #f44336;
     font-size: 20px
 }
 
@@ -19286,7 +19286,7 @@ div.akitennisclass1035 {
     height: 0px;
     border-style: solid;
     border-width: 10px 10px 0 10px;
-    border-color: #03a9f4 transparent transparent transparent;
+    border-color: #f44336 transparent transparent transparent;
     z-index: -1
 }
 
@@ -19316,7 +19316,7 @@ div.akitennisclass1035 {
     height: 0px;
     border-style: solid;
     border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #03a9f4 transparent;
+    border-color: transparent transparent #f44336 transparent;
     z-index: -1
 }
 
@@ -19433,7 +19433,7 @@ div.akitennisclass1035 {
 
     .btn-search button:hover, .btn-search button:focus {
         background-color: inherit !important;
-        border-color: #03a9f4
+        border-color: #f44336
     }
 }
 
@@ -19565,48 +19565,48 @@ div.akitennisclass1035 {
 }
 
 .network-forecast .time-past {
-    background-color: #03a9f4;
+    background-color: #f44336;
     color: #000000
 }
 
 .network-forecast .time-past.left-10 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 17%, #fff 17%, #fff 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 17%, #fff 17%, #fff 100%)
 }
 
 .network-forecast .time-past.left-20 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 34%, #fff 34%, #fff 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 34%, #fff 34%, #fff 100%)
 }
 
 .network-forecast .time-past.left-30 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 50%, #fff 50%, #fff 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 50%, #fff 50%, #fff 100%)
 }
 
 .network-forecast .time-past.left-40 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 67%, #fff 67%, #fff 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 67%, #fff 67%, #fff 100%)
 }
 
 .network-forecast .time-past.left-50 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 84%, #fff 84%, #fff 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 84%, #fff 84%, #fff 100%)
 }
 
 .network-forecast .time-past.right-10 {
-    background: linear-gradient(90deg, #fff 0%, #fff 17%, #03a9f4 17%, #03a9f4 100%)
+    background: linear-gradient(90deg, #fff 0%, #fff 17%, #f44336 17%, #f44336 100%)
 }
 
 .network-forecast .time-past.right-20 {
-    background: linear-gradient(90deg, #fff 0%, #fff 34%, #03a9f4 34%, #03a9f4 100%)
+    background: linear-gradient(90deg, #fff 0%, #fff 34%, #f44336 34%, #f44336 100%)
 }
 
 .network-forecast .time-past.right-30 {
-    background: linear-gradient(90deg, #fff 0%, #fff 50%, #03a9f4 50%, #03a9f4 100%)
+    background: linear-gradient(90deg, #fff 0%, #fff 50%, #f44336 50%, #f44336 100%)
 }
 
 .network-forecast .time-past.right-40 {
-    background: linear-gradient(90deg, #fff 0%, #fff 67%, #03a9f4 67%, #03a9f4 100%)
+    background: linear-gradient(90deg, #fff 0%, #fff 67%, #f44336 67%, #f44336 100%)
 }
 
 .network-forecast .time-past.right-50 {
-    background: linear-gradient(90deg, #fff 0%, #fff 84%, #03a9f4 84%, #03a9f4 100%)
+    background: linear-gradient(90deg, #fff 0%, #fff 84%, #f44336 84%, #f44336 100%)
 }
 
 .simple-calendar th {
@@ -19957,7 +19957,7 @@ div.akitennisclass1035 {
 .steps .step.active {
     background: #f3f4f5;
     font-weight: bold;
-    color: #03a9f4
+    color: #f44336
 }
 
 .steps .step.active:after {
@@ -20051,7 +20051,7 @@ h1 a.akitennisclass2320 {
     vertical-align: 0.2rem;
     display: inline-block;
     margin-left: 1rem;
-    color: #03a9f4
+    color: #f44336
 }
 
 .ui.selection.dropdown .menu > .item {
@@ -20114,7 +20114,7 @@ h1 a.akitennisclass2320 {
 
 .akitennisclass1247 {
     position: relative;
-    background: #03a9f4;
+    background: #f44336;
     color: #fff;
     border-top: none;
     padding-bottom: 10px
@@ -20153,7 +20153,7 @@ h1 a.akitennisclass2320 {
 }
 
 .mineo-n-header {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .mineo-n-header a {
@@ -20163,7 +20163,7 @@ h1 a.akitennisclass2320 {
 }
 
 .mineo-n-header a .fa-inverse {
-    color: #03a9f4
+    color: #f44336
 }
 
 .mineo-n-header a .fa-circle {
@@ -20266,7 +20266,7 @@ h1 a.akitennisclass2320 {
 }
 
 .akitennisclass1741 {
-    background-color: #03a9f4;
+    background-color: #f44336;
     color: #fff;
     padding-bottom: 10px;
     margin-bottom: 10px
@@ -20351,7 +20351,7 @@ h1 a.akitennisclass2320 {
 }
 
 .akitennisclass1741 .akitennisclass1737 a .badge-with-tip {
-    border: 3px solid #03a9f4 !important
+    border: 3px solid #f44336 !important
 }
 
 .akitennisclass1741 .akitennisclass1737 .akitennisclass1246 a {
@@ -20559,7 +20559,7 @@ h1 a.akitennisclass2320 {
     background-color: rgba(0, 0, 0, 0.2);
     width: 25%;
     line-height: 30px;
-    border-left: 1px solid #03a9f4;
+    border-left: 1px solid #f44336;
     padding-left: 16px
 }
 
@@ -20578,7 +20578,7 @@ h1 a.akitennisclass2320 {
     background-color: rgba(0, 0, 0, 0.2);
     width: 50%;
     line-height: 30px;
-    border-left: 1px solid #03a9f4;
+    border-left: 1px solid #f44336;
     border-radius: 0 3px 3px 0;
     padding: 0 16px;
     overflow: hidden
@@ -20591,7 +20591,7 @@ h1 a.akitennisclass2320 {
 @media (max-width: 767px) {
     .akitennisclass1741 .akitennisclass975 .akitennisclass810 {
         border-left: none;
-        border-top: 1px solid #03a9f4;
+        border-top: 1px solid #f44336;
         width: 100%;
         border-radius: 0 0 3px 3px
     }
@@ -20655,7 +20655,7 @@ h1 a.akitennisclass2320 {
 }
 
 .akitennisclass987-link {
-    color: #03a9f4 !important
+    color: #f44336 !important
 }
 
 .akitennisclass686.border-dashed + .akitennisclass686 {
@@ -20730,7 +20730,7 @@ h1 a.akitennisclass2320 {
 }
 
 .mineo-alert-info a {
-    color: #03a9f4
+    color: #f44336
 }
 
 .mineo-alert-info .close {
@@ -21024,7 +21024,7 @@ h1 a.akitennisclass2320 {
 }
 
 .ambassador .akitennisclass1258 {
-    background-color: #03a9f4;
+    background-color: #f44336;
     border: none;
     color: #fff;
     font-weight: bold;
@@ -21038,7 +21038,7 @@ h1 a.akitennisclass2320 {
 }
 
 .ambassador .slick-prev {
-    background-color: #03a9f4;
+    background-color: #f44336;
     height: 100%;
     width: 30px !important;
     top: 0;
@@ -21048,7 +21048,7 @@ h1 a.akitennisclass2320 {
 }
 
 .ambassador .slick-next {
-    background-color: #03a9f4;
+    background-color: #f44336;
     height: 100%;
     width: 30px !important;
     top: 0;
@@ -21062,7 +21062,7 @@ h1 a.akitennisclass2320 {
 }
 
 .akitennisclass2590-ambassador {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .akitennisclass2590-ambassador .panel {
@@ -21097,7 +21097,7 @@ h1 a.akitennisclass2320 {
 }
 
 .akitennisclass2590.active {
-    background: #03a9f4;
+    background: #f44336;
     color: #fff
 }
 
@@ -21132,11 +21132,11 @@ h1 a.akitennisclass2320 {
 }
 
 .text-review {
-    color: #03a9f4
+    color: #f44336
 }
 
 .badge-videochat {
-    background: #03a9f4
+    background: #f44336
 }
 
 .akitennisclass1316 .badge-videochat, .btn-ambassador .badge-videochat {
@@ -21334,7 +21334,7 @@ h1 a.akitennisclass2320 {
 }
 
 .label-idea-under-review {
-    background: #03a9f4;
+    background: #f44336;
     color: #fff;
     display: inline-block;
     width: 5em
@@ -21355,7 +21355,7 @@ h1 a.akitennisclass2320 {
 }
 
 .label-idea-comment {
-    color: #03a9f4
+    color: #f44336
 }
 
 .idea-step.triangle li .badge {
@@ -21862,7 +21862,7 @@ h1 a.akitennisclass2320 {
 }
 
 .magazine-table th {
-    background-color: #03a9f4;
+    background-color: #f44336;
     color: #fff;
     white-space: nowrap
 }
@@ -21907,8 +21907,8 @@ ul.tank-condition li {
 }
 
 .btn-tip-banner {
-    background-color: #03a9f4;
-    border-color: #03a9f4;
+    background-color: #f44336;
+    border-color: #f44336;
     color: #fff
 }
 
@@ -21919,7 +21919,7 @@ ul.tank-condition li {
 }
 
 .navbar-default .navbar-header .akitennisclass1613 .akitennisclass1313 {
-    background: #03a9f4;
+    background: #f44336;
     color: #fff;
     border-color: #d5ffe5
 }
@@ -22135,7 +22135,7 @@ ul.tank-condition li {
 }
 
 .h1-cocreate {
-    border-left: 4px solid #03a9f4;
+    border-left: 4px solid #f44336;
     padding-left: 14px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -22143,8 +22143,8 @@ ul.tank-condition li {
 }
 
 .h2-cocreate {
-    border-top: 2px solid #03a9f4;
-    border-bottom: 2px solid #03a9f4;
+    border-top: 2px solid #f44336;
+    border-bottom: 2px solid #f44336;
     background-color: #f1faf4;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -22204,7 +22204,7 @@ ul.tank-condition li {
 }
 
 .nav-cocreate.akitennisclass982 .panel-primary .akitennisclass987 {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .nav-cocreate.akitennisclass982 .panel-primary .akitennisclass686.active, .nav-cocreate.akitennisclass982 .panel-primary .akitennisclass686.active:hover, .nav-cocreate.akitennisclass982 .panel-primary .akitennisclass686.active:focus {
@@ -22275,7 +22275,7 @@ ul.tank-condition li {
 }
 
 .network-forecast2 .date-label .label-today {
-    background-color: #03a9f4
+    background-color: #f44336
 }
 
 .network-forecast2 .date-label .label-time {
@@ -22349,7 +22349,7 @@ ul.tank-condition li {
 }
 
 .network-forecast2 .time-past {
-    background-color: #03a9f4;
+    background-color: #f44336;
     color: #000000
 }
 
@@ -22398,43 +22398,43 @@ ul.tank-condition li {
 }
 
 .network-forecast2 .time-past.left-10 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 17%, #eff2f3 17%, #eff2f3 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 17%, #eff2f3 17%, #eff2f3 100%)
 }
 
 .network-forecast2 .time-past.left-20 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 34%, #eff2f3 34%, #eff2f3 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 34%, #eff2f3 34%, #eff2f3 100%)
 }
 
 .network-forecast2 .time-past.left-30 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 50%, #eff2f3 50%, #eff2f3 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 50%, #eff2f3 50%, #eff2f3 100%)
 }
 
 .network-forecast2 .time-past.left-40 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 67%, #eff2f3 67%, #eff2f3 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 67%, #eff2f3 67%, #eff2f3 100%)
 }
 
 .network-forecast2 .time-past.left-50 {
-    background: linear-gradient(90deg, #03a9f4 0%, #03a9f4 84%, #eff2f3 84%, #eff2f3 100%)
+    background: linear-gradient(90deg, #f44336 0%, #f44336 84%, #eff2f3 84%, #eff2f3 100%)
 }
 
 .network-forecast2 .time-past.right-10 {
-    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 17%, #03a9f4 17%, #03a9f4 100%)
+    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 17%, #f44336 17%, #f44336 100%)
 }
 
 .network-forecast2 .time-past.right-20 {
-    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 34%, #03a9f4 34%, #03a9f4 100%)
+    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 34%, #f44336 34%, #f44336 100%)
 }
 
 .network-forecast2 .time-past.right-30 {
-    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 50%, #03a9f4 50%, #03a9f4 100%)
+    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 50%, #f44336 50%, #f44336 100%)
 }
 
 .network-forecast2 .time-past.right-40 {
-    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 67%, #03a9f4 67%, #03a9f4 100%)
+    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 67%, #f44336 67%, #f44336 100%)
 }
 
 .network-forecast2 .time-past.right-50 {
-    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 84%, #03a9f4 84%, #03a9f4 100%)
+    background: linear-gradient(90deg, #eff2f3 0%, #eff2f3 84%, #f44336 84%, #f44336 100%)
 }
 
 .td-narrow {
@@ -22473,7 +22473,7 @@ ul.tank-condition li {
 
 .akitennisclass2590-member {
     background-color: #fffccc;
-    border: 1px solid #03a9f4
+    border: 1px solid #f44336
 }
 
 @media (max-width: 767px) {
@@ -27971,7 +27971,7 @@ body .ui-tooltip {
 }
 
 .about .green_table > dt {
-    background-color: #03a9f4;
+    background-color: #f44336;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
@@ -27980,7 +27980,7 @@ body .ui-tooltip {
 }
 
 .about .green_table > dd {
-    border: 2px solid #03a9f4;
+    border: 2px solid #f44336;
     font-size: 16px;
     box-sizing: border-box;
     padding: 30px 20px
@@ -28090,7 +28090,7 @@ body .ui-tooltip {
 
 .about .funtoku h1 span {
     font-size: 28px;
-    color: #03a9f4
+    color: #f44336
 }
 
 .about .funtoku .funtoku_note {
@@ -28107,7 +28107,7 @@ body .ui-tooltip {
 .about .funtoku .funtoku_note h2 {
     font-family: Meiryo, メイリオ;
     font-size: 29px;
-    color: #03a9f4;
+    color: #f44336;
     letter-spacing: -1.6px;
     margin: 0 0 30px
 }
@@ -28214,7 +28214,7 @@ body .ui-tooltip {
     }
 
     .about .green_table > dd {
-        border: 1px solid #03a9f4;
+        border: 1px solid #f44336;
         font-size: 16px;
         padding: 10px 15px
     }

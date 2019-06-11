@@ -5,30 +5,31 @@ class HomeController < ApplicationController
     render "index"
   end
 
+  def index2
+    @posts = Post.all
+    render "index2"
+  end
+
+  def index3
+    @posts = Post.all
+    render "index3"
+  end
+
   def create
-    Post.create!(contents:params[:contents])
-    redirect_to controller: :home, action: :index
+    path = Rails.application.routes.recognize_path(request.referer)
+
+    case path[:action]
+    when "index"
+      Post.create!(name: params[:name], content: params[:content])
+      redirect_to controller: :home, action: :index
+    when "index2"
+      Post.create!(name: params[:name], content: params[:content])
+      redirect_to controller: :home, action: :index2
+    when "index3"
+      Post.create!(name: params[:name], content: params[:content])
+      redirect_to controller: :home, action: :index3
+    end
+
   end
 
-  def edit
-    @post=Post.find_by(id:params[:id])
-    render "edit"
-  end
-
-  def update
-    Post.find_by(id:params[:id]).update!(contents:params[:contents])
-    redirect_to controller: :home, action: :index
-  end
-
-  def destroy
-    Post.find_by(id:params[:id]).destroy!
-    redirect_to controller: :home, action: :index
-  end
-
-  def favorite
-    content=Post.find_by(id:params[:id])
-    favorite_number=content.favorite + 1
-    content.update!(favorite:favorite_number)
-    redirect_to controller: :home, action: :index
-  end
 end

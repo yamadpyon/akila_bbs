@@ -1,15 +1,12 @@
+<%= stylesheet_link_tag "style/style2", :media => "all" %>
+
 <div class="container" id="mainContent">
   <div class="row">
     <div class="akitennisclass1675" role="main">
       <!-- MainContent -->
 
 
-
       <section class="akitennisclass2348">
-        <h3 id="comment_section" class=" text-white">コメント数 <span class="badge"><%= @posts.count %></span>
-        </h3>
-
-
         <div class="akitennisclass1926">
           <div class="akitennisclass1492 akitennisclass2348" id="pager-head">
 
@@ -37,40 +34,40 @@
         <div id="comments" class="akitennisclass2348">
           <% @posts.each do |post| %>
 
-              <div id="last_comment" class="akitennisclass1292 akitennisclass2594">
-                <div class="akitennisclass1764">
-                  <div class="popover right show">
-                    <div class="arrow"></div>
+            <div id="last_comment" class="akitennisclass1292 akitennisclass2594">
+              <div class="akitennisclass1764">
+                <div class="popover right show">
+                  <div class="arrow"></div>
 
-                    <div class="popover-content">
-                      <div class="akitennisclass1291 akitennisclass1926">
-                        <div class="akitennisclass313 akitennisclass1766 akitennisclass1853">
+                  <div class="popover-content">
+                    <div class="akitennisclass1291 akitennisclass1926">
+                      <div class="akitennisclass313 akitennisclass1766 akitennisclass1853">
 
 
-                          <b class="akitennisclass1539">
+                        <b class="akitennisclass1539">
                                                     <span class="label akitennisclass1035" style="margin-right: 5px;">
                                                        <%= post.name %> </span>
-                          </b>
-                        </div>
-
+                        </b>
                       </div>
-                      <!--.clearfix-->
-                      <p class="text-white">
-                        <%= post.content %>
-                      </p>
-                      <div class="akitennisclass1926">
-                        <div class="akitennisclass313 akitennisclass1531 akitennisclass1853">
+
+                    </div>
+                    <!--.clearfix-->
+                    <p class="text-white">
+                      <%= post.content %>
+                    </p>
+                    <div class="akitennisclass1926">
+                      <div class="akitennisclass313 akitennisclass1531 akitennisclass1853">
               <span class="akitennisclass1539 text-white" data-container="body" data-toggle="tooltip" title="2019/06/10 09:33">
-                <i class="fa fa-clock"></i> <time datetime="<%= post.created_at %>"><%= time_ago_in_words(post.created_at)+"前" %></time>
+                <i class="fa fa-clock"></i> <time datetime="<%= post.created_at %>"><%= time_ago_in_words(post.created_at) + "前" %></time>
               </span>
-                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
               </div>
-              <% end %>
+
+            </div>
+          <% end %>
         </div>
         <%= form_tag('/home/create', method: :post, class: "new_content_comment", id: "comment_form") do %>
           <div style="display:none">
@@ -97,9 +94,9 @@
 
 
               <p>
-                <%= text_field_tag :name, "",placeholder: "お名前", class: "autoResizeable charCountable akitennisclass1200", id: "name", style: "min-height: 3em; max-height: 250px; overflow: hidden; overflow-wrap: break-word; resize: horizontal;    width: 50%; margin-bottom:5px; " %>
+                <%= text_field_tag :name, "", placeholder: "お名前", class: "autoResizeable charCountable akitennisclass1200", id: "name", style: "min-height: 3em; max-height: 250px; overflow: hidden; overflow-wrap: break-word; resize: horizontal;    width: 50%; margin-bottom:5px; " %>
 
-                <%= text_field_tag :content, "",placeholder: "投稿内容", class: "autoResizeable charCountable akitennisclass1200", id: "content_comment_body", style: "min-height: 3em; max-height: 250px; overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 66px;" %>
+                <%= text_field_tag :content, "", placeholder: "投稿内容", class: "autoResizeable charCountable akitennisclass1200", id: "content_comment_body", style: "min-height: 3em; max-height: 250px; overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 66px;" %>
               </p>
               <div class="akitennisclass1926">
                 <p class="akitennisclass1539 akitennisclass1766 akitennisclass2320 text-white">たったの<b class="charCounterLimit">２０分</b>で<span class="akitennisclass1238"><b class="charCounter">掲示板アプリ</b></span>ができる！！

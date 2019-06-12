@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d591a9b-c469-4676-aae6-6c8768198bf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/style/style2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/style/style3.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style/style2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style/style2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style/style3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style/style3.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/home/index2.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index2.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index3.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index3.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -41,11 +38,11 @@
           <entry key="erb" value="15" />
           <entry key="html" value="6" />
           <entry key="js" value="2" />
-          <entry key="rb" value="13" />
+          <entry key="rb" value="14" />
           <entry key="rnc" value="1" />
           <entry key="ru" value="1" />
           <entry key="ruby-version" value="2" />
-          <entry key="scss" value="6" />
+          <entry key="scss" value="7" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
@@ -57,8 +54,8 @@
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="RHTML" value="15" />
           <entry key="RNG Compact" value="1" />
-          <entry key="Ruby" value="15" />
-          <entry key="SCSS" value="6" />
+          <entry key="Ruby" value="16" />
+          <entry key="SCSS" value="7" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -66,12 +63,12 @@
         <counts>
           <entry key="Gemfile" value="1" />
           <entry key="css" value="180" />
-          <entry key="erb" value="1171" />
+          <entry key="erb" value="1183" />
           <entry key="html" value="236" />
           <entry key="rb" value="216" />
           <entry key="rnc" value="1" />
           <entry key="ruby-version" value="4" />
-          <entry key="scss" value="253" />
+          <entry key="scss" value="284" />
           <entry key="yml" value="11" />
         </counts>
       </usages-collector>
@@ -80,10 +77,10 @@
           <entry key="CSS" value="180" />
           <entry key="HTML" value="236" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="RHTML" value="1171" />
+          <entry key="RHTML" value="1183" />
           <entry key="RNG Compact" value="1" />
           <entry key="Ruby" value="217" />
-          <entry key="SCSS" value="253" />
+          <entry key="SCSS" value="284" />
           <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
@@ -96,8 +93,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="36" selection-start-column="36" selection-end-column="36" />
+                <state relative-caret-position="776">
+                  <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -111,11 +108,29 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style/style3.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="1580" column="180" selection-start-line="1580" selection-end-line="1580" selection-end-column="180" />
+                <state relative-caret-position="333">
+                  <caret line="2302" selection-start-line="2302" selection-end-line="2302" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style/style2.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="318">
+                  <caret line="2403" column="30" selection-start-line="2403" selection-start-column="4" selection-end-line="2403" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/spring.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
@@ -123,8 +138,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+                <state relative-caret-position="333">
+                  <caret line="2303" selection-start-line="2303" selection-end-line="2303" />
                 </state>
               </provider>
             </entry>
@@ -132,8 +147,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+                <state relative-caret-position="225">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -154,8 +169,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -163,13 +178,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+                <state relative-caret-position="375">
+                  <caret line="35" selection-start-line="35" selection-end-line="35" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/home/index2.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
@@ -178,7 +193,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/home/index3.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
@@ -220,17 +235,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navbar</find>
-      <find>popover</find>
-      <find>ambassador</find>
-      <find>candy</find>
-      <find>body</find>
-      <find>paginati</find>
-      <find>1247</find>
       <find>.akitennisclass1764 .popover .arrow</find>
       <find>.popover.right</find>
       <find>.akitennisclass1741 .akitennisclass975 .gp-tree-col, .akitennisclass1741 .akitennisclass975 .akitennisclass1232, .akitennisclass1741 .akitennisclass975 .akitennisclass810</find>
-      <find>.akitennisclass1741 .akitennisclass975 .akitennisclass1232</find>
       <find>breadcrumb-container</find>
       <find>comment_section</find>
       <find>.akitennisclass1247</find>
@@ -244,12 +251,20 @@
       <find>.akitennisclass1741 .akitennisclass975 .akitennisclass810</find>
       <find>img</find>
       <find>.css</find>
-      <find>.akitennisclass1741</find>
       <find>akitennisclass1531 akitennisclass2549 akitennisclass1302 akitennisclass1246 akitennisclass1306</find>
       <find>#cb3856</find>
       <find>jpg</find>
       <find>akitennisclass1539 akitennisclass1766 akitennisclass2320</find>
+      <find>akitennisclass1492 akitennisclass2348</find>
+      <find>.akitennisclass1741</find>
+      <find>.akitennisclass1316:hover, .akitennisclass1316:focus, .akitennisclass1316.focus, .akitennisclass1316:active, .akitennisclass1316.active, .open &gt; .akitennisclass1316.dropdown-toggle</find>
+      <find>.akitennisclass1036</find>
+      <find>.akitennisclass2594, .akitennisclass1764</find>
       <find>.akitennisclass1035</find>
+      <find>akitennisclass810</find>
+      <find>akitennisclass1539 akitennisclass1766 akitennisclass2320 text-white</find>
+      <find>.akitennisclass1741 .akitennisclass975 .akitennisclass1232</find>
+      <find>background-color: #4d6c7b;</find>
     </findStrings>
     <replaceStrings>
       <replace>fonts/</replace>
@@ -265,8 +280,10 @@
       <replace>掲示板</replace>
       <replace>#9f323d</replace>
       <replace>#aa3a51</replace>
-      <replace>#cb3856</replace>
       <replace>#4d6c7b</replace>
+      <replace>#cb3856</replace>
+      <replace>rgba(0,0,0,0)</replace>
+      <replace>#8d3542</replace>
       <replace>content</replace>
     </replaceStrings>
   </component>
@@ -295,19 +312,20 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20190510075016_create_posts.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$USER_HOME$/template/velo/true-social.html" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index2.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index3.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/style/style2.scss" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/style/style.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style/style3.scss" />
+        <option value="$PROJECT_DIR$/app/views/home/index2.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/style/style2.scss" />
       </list>
     </option>
   </component>
@@ -586,18 +604,18 @@
       <option name="presentableId" value="Default" />
       <updated>1560136237213</updated>
       <workItem from="1560136238660" duration="24353000" />
-      <workItem from="1560239294349" duration="12674000" />
+      <workItem from="1560239294349" duration="14070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37027000" />
+    <option name="totallyTimeSpent" value="38423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1080" y="-1020" width="1080" height="1920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -610,7 +628,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" x="0" y="45" width="1440" height="855" id="Terminal" order="10" type="WINDOWED" visible="true" weight="0.329863" />
+      <window_info anchor="bottom" x="0" y="45" width="1440" height="855" id="Terminal" order="10" type="WINDOWED" visible="true" weight="0.329863" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329863" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -846,59 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/template/velo/true-social.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index2.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index3.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -909,17 +878,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style/style2.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/home/index3.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="352" lean-forward="true" selection-end-line="5473" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/spring.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="2303" selection-start-line="2303" selection-end-line="2303" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style/style3.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="1580" column="180" selection-start-line="1580" selection-end-line="1580" selection-end-column="180" />
+        <state relative-caret-position="333">
+          <caret line="2302" selection-start-line="2302" selection-end-line="2302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index2.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style/style2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="2403" column="30" selection-start-line="2403" selection-start-column="4" selection-end-line="2403" selection-end-column="30" />
         </state>
       </provider>
     </entry>

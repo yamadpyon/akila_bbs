@@ -2302,7 +2302,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 .akitennisclass2594, .akitennisclass1764 {
   overflow: hidden;
   box-shadow: 1px 0px 10px white;
-  zoom: 1
+  zoom: 1;
+  border-radius: 10px;
+  border: 1px solid #fff;
 }
 
 .akitennisclass2594, .akitennisclass2594 .akitennisclass2594 {
@@ -5222,7 +5224,6 @@ h1 a.akitennisclass2320 {
 }
 
 .akitennisclass1741 .akitennisclass975 .gp-tree-col, .akitennisclass1741 .akitennisclass975 .akitennisclass1232, .akitennisclass1741 .akitennisclass975 .akitennisclass810 {
-  float: left;
   color: #fff
 }
 
@@ -5268,8 +5269,10 @@ h1 a.akitennisclass2320 {
 .akitennisclass1741 .akitennisclass975 .akitennisclass1232 {
   width: 25%;
   line-height: 30px;
-  border-left: 1px solid rgba(0,0,0,0);
-  padding-left: 16px
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  text-align: center;
+  margin: auto;
 }
 
 .akitennisclass1741 .akitennisclass975 .akitennisclass1232 span {
